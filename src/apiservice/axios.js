@@ -15,6 +15,7 @@ export const axiosPrivate = axios.create({
 })
 
 
+
 //This creates a second axios instance, called axiosPrivate.
 // The axiosPrivate instance is similar to the default instance but with additional configurations:
 // Headers: It sets a custom Content-Type header to application/json, indicating that the requests will use JSON format.
