@@ -18,7 +18,6 @@ const useAuthService = () => {
 
     const login = async (id, password) => {
         const credentials = { id, password };
-
         try {
             const res = await axios.post(`/auth/login`, credentials, { withCredentials: true });
             const { message, accessToken, user } = res.data
